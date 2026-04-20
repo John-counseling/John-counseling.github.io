@@ -12,7 +12,7 @@ export default function App() {
   };
 
   return (
-    <Router>
+    <Router basename={import.meta.env.DEV ? '/' : '/john-counseling.github.io/'}>
       <Routes>
         <Route 
           path="/" 
