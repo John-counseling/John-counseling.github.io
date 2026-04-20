@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import { Language } from './translations';
 import LandingPage from './pages/LandingPage';
@@ -12,7 +12,7 @@ export default function App() {
   };
 
   return (
-    <Router basename={import.meta.env.DEV ? '/' : '/john-counseling.github.io/'}>
+    <Router>
       <Routes>
         <Route 
           path="/" 
