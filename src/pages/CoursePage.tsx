@@ -92,7 +92,7 @@ export default function CoursePage({ lang }: CoursePageProps) {
             </div>
           </div>
           <a 
-            href="././public/结婚_完结.pdf" 
+            href="/结婚_完结.pdf" 
             download="婚前课程.pdf" 
             className="bg-white text-terracotta px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-white/90 transition-all shadow-lg shrink-0 no-underline"
           >
